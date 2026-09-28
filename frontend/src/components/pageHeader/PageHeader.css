@@ -1,0 +1,11 @@
+.page-header {
+    background: var(--header-bg) !important;
+    color: var(--color-white);
+    padding: var(--padding-sm);
+}
+
+.page-header h1 {
+    font-weight: var(--font-weight-medium) !important;
+    font-size: var(--font-size-sm) !important;
+    font-family: var(--font-sans) !important;
+}

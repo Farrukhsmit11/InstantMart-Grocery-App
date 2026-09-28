@@ -1,0 +1,24 @@
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+div {
+    box-sizing: border-box;
+}

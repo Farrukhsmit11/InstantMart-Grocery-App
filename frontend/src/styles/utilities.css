@@ -22,3 +22,31 @@ a {
 div {
     box-sizing: border-box;
 }
+
+.h-full {
+    height: 100%;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.pt-sm {
+    padding-top: var(--padding-sm);
+}
+
+.pb-md {
+    padding-bottom: var(--padding-md);
+}
+
+.pb-lg {
+    padding-bottom: var(--padding-lg);
+}
+
+.gap-sm {
+    gap: var(--space-sm);
+}
+
+.gap-md{
+    gap: var(--space-md);
+}

@@ -1,13 +1,13 @@
 import "./Navbar.css"
+import { MdDirectionsBike } from "react-icons/md";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg flex">
+        <nav className="flex bg-white pt-sm pb-sm pt-xs border-bottom">
             <div className="container">
-                <div className="navbar-content">
-                    <div className="nav-left">
-
-                    </div>
+                <div className="nav-left flex gap-sm items-center">
+                    <MdDirectionsBike />
+                    <h1 className="font-size-md">InstantMart</h1>
                 </div>
             </div>
         </nav>
